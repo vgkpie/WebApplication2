@@ -17,7 +17,7 @@ namespace WebApplication2.Controllers
         {
             var lastVisit = Request.Cookies["LastVisit"];
 
-            // Ако бисквитката не съществува, задаваме съобщение за първо посещение
+            // obicham biskviti
             if (string.IsNullOrEmpty(lastVisit))
             {
                 ViewBag.LastVisit = "Това е твоето първо посещение!";
